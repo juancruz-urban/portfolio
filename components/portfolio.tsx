@@ -5,6 +5,7 @@ import { ArrowUpRight, Check, Mail, Menu, X } from 'lucide-react'
 
 const projects = [
   { name: 'Football Manager Web', type: 'Juego web', category: 'games', description: 'Simulador de director técnico para gestionar tu propio equipo.', image: '/jogo.png', tags: ['React', 'JavaScript', 'TypeScript'], accent: 'lime', link: 'https://fm-web-ochre.vercel.app/' },
+   { name: 'QR-Generator', type: 'Aplicación web', description: 'Generador de codigo QR.', image: '/qrgen.png', tags: ['JavaScript','React', 'Typescript'], accent: 'blue', github: 'https://github.com/juancruz-urban/QR-generator',link:'https://qr-generator-jet-chi.vercel.app/' },
   { name: 'Focus Area', type: 'Extensión de navegador', description: 'Una herramienta para concentrarte en un área determinada de la pantalla.', image: '/focusarea-demo.png', tags: ['React', 'JavaScript'], accent: 'violet', link: 'https://chromewebstore.google.com/detail/focus-area/almpahabbffopaofopkjgfakdlindpmn' },
   { name: 'OverDOM', type: 'Developer tool', description: 'DevTools, pero más simple, práctico e intuitivo.', image: '/overDOM.png', tags: ['React', 'JavaScript'], accent: 'blue', github: 'https://github.com/juancruz-urban/OverDOM' },
   { name: 'Component Lab', type: 'Developer tool', description: 'Visualizá, testeá y documentá componentes React de forma interactiva.', image: '/Screenshot 2025-05-02 at 12-21-29 ComponentLab.png', tags: ['React', 'JavaScript', 'CSS'], accent: 'violet', link: 'https://component-lab.vercel.app', github: 'https://github.com/juancruz-urban/States-Generator' },
